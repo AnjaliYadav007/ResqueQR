@@ -407,7 +407,7 @@ export default function HomePage() {
       {/* ── STATS ── */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 py-16">
         <div className="max-w-5xl mx-auto px-6">
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-3 gap-6 ">
             <StatCard value={12500} label="Vehicles Registered" />
             <StatCard value={3200} label="Emergency Alerts Sent" />
             <StatCard value={99} label="Uptime Guarantee" suffix="%" />
