@@ -1,7 +1,7 @@
 // lib/utils/alerts.ts
 
 /**
- * Send emergency alert via WhatsApp
+ * Send  via WhatsApp
  */
 export const sendWhatsAppAlert = (phone: string, message: string): void => {
   // Remove all non-numeric characters (spaces, dashes, plus signs, etc.)
@@ -40,7 +40,7 @@ export const createEmergencyMessage = (
   locationUrl?: string,
   bloodGroup?: string
 ): string => {
-  return `🚨 EMERGENCY ALERT 🚨
+  return ` EMERGENCY ALERT 
 
 Vehicle Accident Reported!
 
