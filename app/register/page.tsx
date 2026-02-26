@@ -287,7 +287,7 @@ export default function RegisterPage() {
             {/* ── STEP 2: Vehicle ── */}
             {step === 2 && (
               <FormCard title="Vehicle Details" subtitle="Information to identify your vehicle" icon={FiTruck} color="indigo">
-                <div className="grid md:grid-cols-2 gap-5">
+                <div className="grid md:grid-cols-2 gap-5 ">
                   <StyledInput
                     label="Vehicle Number"
                     required
@@ -296,17 +296,24 @@ export default function RegisterPage() {
                     onChange={e => set('vehicleNumber', e.target.value.toUpperCase())}
                     placeholder="DL-01-AB-1234"
                   />
-                  <StyledSelect
-                    label="Vehicle Type"
-                    required
-                    value={formData.vehicleType}
-                    onChange={e => set('vehicleType', e.target.value)}
-                  >
-                    <option value="Car">Car</option>
-                    <option value="Bike">Bike</option>
-                    <option value="Truck">Truck</option>
-                    <option value="Bus">Bus</option>
-                  </StyledSelect>
+                
+                  <StyledSelect 
+  label="Vehicle Type"
+  required
+  value={formData.vehicleType}
+  onChange={e => set('vehicleType', e.target.value)}
+>
+  <option value="Car">Car</option>
+  <option value="Bike">Bike</option>
+  <option value="Scooty">Scooty</option>
+  <option value="Scooter">Scooter</option>
+  <option value="SUV">SUV</option>
+  <option value="Van">Van</option>
+  <option value="Truck">Truck</option>
+  <option value="Bus">Bus</option>
+  <option value="Auto Rickshaw">Auto Rickshaw</option>
+  <option value="Electric Vehicle">Electric Vehicle</option>
+</StyledSelect>
                   <StyledInput
                     label="Vehicle Model"
                     type="text"
