@@ -241,7 +241,7 @@ export default function HomePage() {
         {/* Nav */}
         <nav className="relative z-10 flex items-center justify-between px-6 md:px-12 py-6 border-b border-white/5">
           <div className="flex items-center gap-3">
-            <div className="relative w-14 h-14 rounded-full overflow-hidden">
+            <div className="relative w-14 h-14 ">
               <Image src="/images/logo.jpeg" alt="ResqueQR" fill className="object-cover" />
             </div>
             <span className="font-bold text-lg tracking-tight">ResqueQR</span>
