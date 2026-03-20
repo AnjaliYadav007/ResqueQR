@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚑 ResqueQR – Emergency QR Alert System
 
-## Getting Started
+ResqueQR is a life-saving web application that enables **instant emergency communication using QR codes**.  
+In case of an accident, anyone can scan the QR code placed on a vehicle to quickly notify the owner's emergency contacts.
 
-First, run the development server:
+---
 
+## 🌐 Live Demo
+🔗 https://resque-qr.vercel.app
+
+---
+
+## 📌 About the Project
+
+In emergency situations, victims are often unable to share their identity or contact details.  
+ResqueQR solves this problem by providing a **smart QR-based alert system** that ensures quick communication and faster response.
+
+---
+
+## 🚀 Features
+
+- 🔐 Secure vehicle registration with emergency details  
+- 📱 Unique QR code generation for each user  
+- ⚡ Instant emergency contact alerts  
+- 📍 Location-based notification system  
+- 🎨 Modern, responsive, and interactive UI  
+- 🌍 Easy to use — anyone can scan and help  
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** Next.js, TypeScript  
+- **Styling:** Tailwind CSS  
+- **Deployment:** Vercel  
+
+---
+
+## 🧠 How It Works
+
+1. User registers their vehicle and emergency contacts  
+2. System generates a unique QR code  
+3. User places QR code on their vehicle  
+4. In case of emergency, someone scans the QR  
+5. Emergency contacts are notified instantly  
+
+---
+
+## ⚙️ Getting Started
+
+1. Clone the repository
 ```bash
+git clone https://github.com/AnjaliYadav007/ResqueQR.git
+cd ResqueQR
+
+2. Install dependencies
+npm install
+
+3. Run the project
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4. Open in browser
+http://localhost:3000
+🚀 Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project is deployed on Vercel.
+Every push to the main branch automatically updates the live site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔮 Future Improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+SMS / WhatsApp emergency alerts
 
-## Learn More
+AI-based accident detection
 
-To learn more about Next.js, take a look at the following resources:
+Mobile app version
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Integration with emergency services
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👩‍💻 Author
 
-## Deploy on Vercel
+Anjali Yadav
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+GitHub: https://github.com/AnjaliYadav007
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+LinkedIn: https://www.linkedin.com/in/anjali-yadav-899652312
+
+Email: anjaliy320@gmail.com
