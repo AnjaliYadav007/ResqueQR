@@ -60,27 +60,22 @@ npm install
 npm run dev
 4. Open in browser
 http://localhost:3000
-🚀 Deployment
+
+##🚀 Deployment
 
 The project is deployed on Vercel.
 Every push to the main branch automatically updates the live site.
 
-🔮 Future Improvements
+##🔮 Future Improvements
 
 SMS / WhatsApp emergency alerts
-
 AI-based accident detection
-
 Mobile app version
-
 Integration with emergency services
 
-👩‍💻 Author
+##👩‍💻 Author
 
 Anjali Yadav
-
 GitHub: https://github.com/AnjaliYadav007
-
 LinkedIn: https://www.linkedin.com/in/anjali-yadav-899652312
-
 Email: anjaliy320@gmail.com
